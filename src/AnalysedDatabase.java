@@ -57,8 +57,7 @@ public class AnalysedDatabase {
 		
 		score = Float.valueOf(findClosest(interestrate,interestRate))+Float.valueOf(findClosest(dateOfBirth,dob))+
 				Float.valueOf(findClosest(loanPurposeId,loanId));
-		
-		score = score /8;
+		;
 		System.out.println(Float.toString(score));
 		
 	}
